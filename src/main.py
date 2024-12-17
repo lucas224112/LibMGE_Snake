@@ -38,7 +38,6 @@ while True:
             direction = 1
 
     if timeGameLogic.tick(True):
-        print(snake)
         if direction == 0:
             snake.insert(0, [snake[0][0] - 1, snake[0][1]])
         elif direction == 1:
